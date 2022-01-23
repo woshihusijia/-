@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+
+    <style type="text/css">
+        #mynetwork {
+            width: 1200px;
+            height: 800px;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+<div id="mynetwork"></div>
+
+<script type="text/javascript">
+    // 创建节点数据数组
+    var nodes = new vis.DataSet([
+        { id: 1, label: "高等数学" },
+        { id: 2, label: "线性代数" },
+        { id: 3, label: "程序设计基础" },
+        { id: 4, label: "大学物理" },
+        { id: 5, label: "离散数学" },
+        { id: 6, label: "面向对象程序设计" },
+        { id: 7, label: "电路" },
+        { id: 8, label: "模拟电子技术" },
+        { id: 9, label: "概率统计与随机过程" },
+        { id: 10, label: "数据结构与算法" },
+        { id: 11, label: "数字电子技术" },
+        { id: 12, label: "电子技术实验" },
+        { id: 13, label: "数学建模" },
+        { id: 14, label: "计算机组成与结构" },
+        { id: 15, label: "编译原理" },
+        { id: 16, label: "计算机网络原理" },
+        { id: 17, label: "操作系统原理" },
+        { id: 18, label: "计算机系统综合" },
+        { id: 19, label: "数据库系统" },
+        { id: 20, label: "软件工程" }
+    ]);
+
+    // 创建边数据数组
+    var edges = new vis.DataSet([
+        { from: 1, to: 4 },
+        { from: 2, to: 4 },
+        { from: 4, to: 13 },
+        { from: 5, to: 15 },
+        { from: 6, to: 10 },
+        { from: 4, to: 7 },
+        { from: 2, to: 9 },
+        { from: 7, to: 11 },
+        { from: 7, to: 12 },
+        { from: 7, to: 8 },
+        { from: 9, to: 13 },
+        { from: 10, to: 15 },
+        { from: 10, to: 18 },
+        { from: 10, to: 16 },
+        { from: 10, to: 17 },
+        { from: 10, to: 19 },
+        { from: 11, to: 14 },
+        { from: 11, to: 19 },
+        { from: 14, to: 18 },
+        { from: 15, to: 18 },
+        { from: 16, to: 18 },
+        { from: 17, to: 18 },
+        { from: 17, to: 19 },
+        { from: 19, to: 20 },
+        { from: 3, to: 6 }
+    ]);
+
+    // 获取容器
+    var container = document.getElementById('mynetwork');
+
+    // 将数据赋值给vis 数据格式化器
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = {};
+
+    // 初始化关系图
+    var network = new vis.Network(container, data, options);
+</script>
+</body>
+</html>
