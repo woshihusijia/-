@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的学业规划</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2>我的学业规划</h2>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                第一阶段：学习一门编程语言以及基础的数据结构与算法知识。
+            </h3>
+        </div>
+        <div class="panel-body">
+            学习编程语言的目的是为后面的数据结构与算法的学习打下一定的基础。然后，就可以开始学习基础的数据结构与算法知识。
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                第二阶段：开始学习操作系统相关的知识。
+            </h3>
+        </div>
+        <div class="panel-body">
+            这里的操作系统不仅指大学期间要学习的计算机操作系统专业课程，同时还要学习并发编程相关的知识。学习计算机操作系统时重点学习操作系统的内存管理、进程线程管理等理论知识，同时结合自己所学习的编程语言来进行相关实践，比如可以同步学习Java并发编程、JVM等知识。
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                第三阶段：学习计算机网络相关的知识。
+            </h3>
+        </div>
+        <div class="panel-body">
+            同操作系统知识的学习一样，不仅要学习专业课开设的计算机网络专业课，同时还要理论结合实践，去学习HttpClient等网络框架技术来进行理论和实践的结合。
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                第四阶段：主要以数据库相关的学习为主，同时查漏补缺一些前面未学习到的一些知识。
+            </h3>
+        </div>
+        <div class="panel-body">
+            数据库的学习可以以MySQL为主，学习基本的SQL操作、SQL优化以及InnoDB存储引擎。
+        </div>
+    </div>
+</body>
+</html>
