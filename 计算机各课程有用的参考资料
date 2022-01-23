@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>各学科参考资料</title>
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h3>点击学科名称即可下载对应资料</h3>
+<ul class="nav nav-pills nav-stacked">
+  <li><a href="资料\【治学集】--高等数学期末版.zip">高等数学</a></li>
+  <li><a href="资料\线性代数小助手2021(1).zip">线性代数</a></li>
+  <li><a href="资料\程序设计基础试题2013A 唐.zip">程序设计基础</a></li>
+  <li><a href="资料\【治学集】--大学物理（上）.zip">大学物理</a></li>
+  <li><a href="资料\离散数学.zip">离散数学</a></li>
+  <li><a href="资料\【南卷汇】电路.zip">电路</a></li>
+
+</ul>
+  
+</body>
+</html>
